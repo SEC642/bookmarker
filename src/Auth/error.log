@@ -1,0 +1,76 @@
+2016-03-23 03:00:54 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/home/ubuntu/bookmarkr/src/Auth/BookmarksAuthorize.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-23 03:00:55 Error: [Cake\Error\FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /Bookmarks
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/home/ubuntu/bo...', 38)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-23 03:04:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class BookmarksTags could not be found.
+Exception Attributes: array (
+  'class' => 'BookmarksTags',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /BookmarksTags
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 03:06:09 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "bookmarks"
+Request URL: /Bookmarks/view/3
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/ORM/Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 /home/ubuntu/bookmarkr/src/Auth/BookmarksAuthorize.php(30): Cake\ORM\Table->get('3')
+#2 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(473): App\Auth\BookmarksAuthorize->authorize(Array, Object(Cake\Network\Request))
+#3 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(282): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#4 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(381): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#5 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Controller/Controller.php(470): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#8 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#9 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\BookmarksController))
+#10 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2016-03-23 03:06:13 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "bookmarks"
+Request URL: /Bookmarks/view/3
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/ORM/Table.php(1110): Cake\ORM\Query->firstOrFail()
+#1 /home/ubuntu/bookmarkr/src/Auth/BookmarksAuthorize.php(30): Cake\ORM\Table->get('3')
+#2 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(473): App\Auth\BookmarksAuthorize->authorize(Array, Object(Cake\Network\Request))
+#3 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(282): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#4 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(381): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#5 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Controller/Controller.php(470): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#8 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#9 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\BookmarksController))
+#10 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2016-03-23 03:06:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bookmarkr could not be found.
+Exception Attributes: array (
+  'class' => 'Bookmarkr',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Bookmarkr
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

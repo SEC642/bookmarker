@@ -1,0 +1,250 @@
+2016-03-23 02:31:08 Error: [InvalidArgumentException] Please pass "username" instead of "login" for connecting to the database
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Database/Connection.php(168): Cake\Database\Driver->__construct(Array)
+#1 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#2 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#3 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(88): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'test', Array)
+#4 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('test', Array)
+#5 /home/ubuntu/bookmarkr/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php(48): Cake\Datasource\ConnectionManager::get('test')
+#6 /home/ubuntu/bookmarkr/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php(159): DebugKit\Panel\SqlLogPanel->initialize()
+#7 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(385): DebugKit\Routing\Filter\DebugBarFilter->beforeDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#9 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#10 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#11 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-23 02:31:08 Error: [InvalidArgumentException] Please pass "username" instead of "login" for connecting to the database
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Database/Connection.php(168): Cake\Database\Driver->__construct(Array)
+#1 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#2 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#3 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(88): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'test', Array)
+#4 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('test', Array)
+#5 /home/ubuntu/bookmarkr/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php(48): Cake\Datasource\ConnectionManager::get('test')
+#6 /home/ubuntu/bookmarkr/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php(159): DebugKit\Panel\SqlLogPanel->initialize()
+#7 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(385): DebugKit\Routing\Filter\DebugBarFilter->beforeDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#9 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#10 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#11 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-23 02:31:08 Error: [InvalidArgumentException] Please pass "username" instead of "login" for connecting to the database
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Database/Connection.php(168): Cake\Database\Driver->__construct(Array)
+#1 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\Database\D...', Array)
+#2 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#3 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(88): Cake\Datasource\ConnectionRegistry->_create('Cake\Database\C...', 'test', Array)
+#4 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('test', Array)
+#5 /home/ubuntu/bookmarkr/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php(48): Cake\Datasource\ConnectionManager::get('test')
+#6 /home/ubuntu/bookmarkr/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php(159): DebugKit\Panel\SqlLogPanel->initialize()
+#7 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(385): DebugKit\Routing\Filter\DebugBarFilter->beforeDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#9 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#10 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#11 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-23 02:33:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class bookmarkr could not be found.
+Exception Attributes: array (
+  'class' => 'bookmarkr',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /bookmarkr
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:33:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class bookmarker could not be found.
+Exception Attributes: array (
+  'class' => 'bookmarker',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /bookmarker
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:33:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class bookmarkers could not be found.
+Exception Attributes: array (
+  'class' => 'bookmarkers',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /bookmarkers
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:33:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class bookmarks could not be found.
+Exception Attributes: array (
+  'class' => 'bookmarks',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /bookmarks
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:36:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class bookmarks could not be found.
+Exception Attributes: array (
+  'class' => 'bookmarks',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /bookmarks
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:36:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class bookmark could not be found.
+Exception Attributes: array (
+  'class' => 'bookmark',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /bookmark
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:36:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class bookmarks could not be found.
+Exception Attributes: array (
+  'class' => 'bookmarks',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /bookmarks
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:36:37 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::new() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'new',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Users/new
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\AppController->invokeAction()
+#1 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-03-23 02:38:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class BookmarksTags could not be found.
+Exception Attributes: array (
+  'class' => 'BookmarksTags',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /BookmarksTags
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:38:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class BookmarksTags could not be found.
+Exception Attributes: array (
+  'class' => 'BookmarksTags',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /BookmarksTags
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:38:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class bookmarks could not be found.
+Exception Attributes: array (
+  'class' => 'bookmarks',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /bookmarks
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:45:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bookmark could not be found.
+Exception Attributes: array (
+  'class' => 'Bookmark',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Bookmark
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 02:51:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Logout could not be found.
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /Logout
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 03:41:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class BookmarksTags could not be found.
+Exception Attributes: array (
+  'class' => 'BookmarksTags',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /BookmarksTags
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-03-23 03:45:21 Error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::webroot() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'webroot',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Bookmarks/webroot
+Stack Trace:
+#0 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\AppController->invokeAction()
+#1 /home/ubuntu/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\BookmarksController))
+#2 /home/ubuntu/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+

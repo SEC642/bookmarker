@@ -1,0 +1,140 @@
+2016-03-23 17:39:46 Notice: Notice (8): Undefined variable: bookmark in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:39:46 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:39:46 Notice: Notice (8): Undefined variable: bookmark in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:39:46 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:39:46 Notice: Notice (8): Undefined variable: bookmark in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 17
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:40:43 Notice: Notice (8): Undefined variable: bookmark in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:40:43 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:40:43 Notice: Notice (8): Undefined variable: bookmark in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:40:43 Notice: Notice (8): Trying to get property of non-object in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 4
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 17:40:43 Notice: Notice (8): Undefined variable: bookmark in [/var/www/html/bookmarkr/src/Template/Bookmarks/edit.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Bookmarks/edit.ctp, line 17
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+

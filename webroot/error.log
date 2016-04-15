@@ -1,0 +1,125 @@
+2016-03-23 03:49:53 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_29kik5bga7al1t4umur2cpc6t3, O_RDWR) failed: Permission denied (13) in [/var/www/html/bookmarkr/vendor/cakephp/cakephp/src/Network/Session.php, line 322]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 322
+Cake\Network\Session::check() - CORE/src/Network/Session.php, line 359
+Cake\Controller\Component\AuthComponent::user() - CORE/src/Controller/Component/AuthComponent.php, line 644
+Cake\Controller\Component\AuthComponent::_getUser() - CORE/src/Controller/Component/AuthComponent.php, line 663
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 272
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 470
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 03:58:30 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_29kik5bga7al1t4umur2cpc6t3, O_RDWR) failed: Permission denied (13) in [/var/www/html/bookmarkr/vendor/cakephp/cakephp/src/Network/Session.php, line 322]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 322
+Cake\Network\Session::check() - CORE/src/Network/Session.php, line 359
+Cake\Controller\Component\AuthComponent::user() - CORE/src/Controller/Component/AuthComponent.php, line 644
+Cake\Controller\Component\AuthComponent::_getUser() - CORE/src/Controller/Component/AuthComponent.php, line 663
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 272
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 470
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 03:58:31 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_29kik5bga7al1t4umur2cpc6t3, O_RDWR) failed: Permission denied (13) in [/var/www/html/bookmarkr/vendor/cakephp/cakephp/src/Network/Session.php, line 322]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 322
+Cake\Network\Session::read() - CORE/src/Network/Session.php, line 383
+DebugKit\Panel\SessionPanel::shutdown() - ROOT/vendor/cakephp/debug_kit/src/Panel/SessionPanel.php, line 35
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::shutdownProcess() - CORE/src/Controller/Controller.php, line 487
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 125
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 04:15:28 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_29kik5bga7al1t4umur2cpc6t3, O_RDWR) failed: Permission denied (13) in [/var/www/html/bookmarkr/vendor/cakephp/cakephp/src/Network/Session.php, line 322]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 322
+Cake\Network\Session::check() - CORE/src/Network/Session.php, line 359
+Cake\Controller\Component\AuthComponent::user() - CORE/src/Controller/Component/AuthComponent.php, line 644
+Cake\Controller\Component\AuthComponent::_getUser() - CORE/src/Controller/Component/AuthComponent.php, line 663
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 272
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 470
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 04:15:28 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_29kik5bga7al1t4umur2cpc6t3, O_RDWR) failed: Permission denied (13) in [/var/www/html/bookmarkr/vendor/cakephp/cakephp/src/Network/Session.php, line 322]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 322
+Cake\Network\Session::check() - CORE/src/Network/Session.php, line 359
+Cake\Controller\Component\AuthComponent::user() - CORE/src/Controller/Component/AuthComponent.php, line 644
+Cake\Controller\Component\AuthComponent::_getUser() - CORE/src/Controller/Component/AuthComponent.php, line 663
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 272
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 470
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 04:15:28 Warning: Warning (2): session_start(): open(/var/lib/php5/sess_29kik5bga7al1t4umur2cpc6t3, O_RDWR) failed: Permission denied (13) in [/var/www/html/bookmarkr/vendor/cakephp/cakephp/src/Network/Session.php, line 322]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_start - [internal], line ??
+Cake\Network\Session::start() - CORE/src/Network/Session.php, line 322
+Cake\Network\Session::read() - CORE/src/Network/Session.php, line 383
+DebugKit\Panel\SessionPanel::shutdown() - ROOT/vendor/cakephp/debug_kit/src/Panel/SessionPanel.php, line 35
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::shutdownProcess() - CORE/src/Controller/Controller.php, line 487
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 125
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-23 04:54:08 Error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::1() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => '1',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /Bookmarks/1
+Stack Trace:
+#0 /var/www/html/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): App\Controller\AppController->invokeAction()
+#1 /var/www/html/bookmarkr/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\BookmarksController))
+#2 /var/www/html/bookmarkr/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
