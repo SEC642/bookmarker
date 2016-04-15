@@ -12,8 +12,8 @@ sudo a2enmod rewrite
 
 Database tables have to inserted correctly so do the following in Mysql:
 
-create database bookmarks;
-use bookmarks;
+create database bookmarkr;
+use bookmarkr;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
@@ -49,6 +49,46 @@ CREATE TABLE bookmarks_tags (
     FOREIGN KEY bookmark_key(bookmark_id) REFERENCES bookmarks(id)
 );
 
+create database test_bookmarkr;
+use test_bookmarkr;
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    created DATETIME,
+    modified DATETIME
+);
+
+CREATE TABLE bookmarks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    title VARCHAR(50),
+    description TEXT,
+    url TEXT,
+    created DATETIME,
+    modified DATETIME,
+    FOREIGN KEY user_key (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE tags (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    created DATETIME,
+    modified DATETIME,
+    UNIQUE KEY (title)
+);
+
+CREATE TABLE bookmarks_tags (
+    bookmark_id INT NOT NULL,
+    tag_id INT NOT NULL,
+    PRIMARY KEY (bookmark_id, tag_id),
+    FOREIGN KEY tag_key(tag_id) REFERENCES tags(id),
+    FOREIGN KEY bookmark_key(bookmark_id) REFERENCES bookmarks(id)
+);
+
+
+
+
 Here is my apache.conf file:
 
 Change the <directory> tags to look like this:
@@ -83,7 +123,7 @@ now in the /var/www/html/bookmarkr/config/app.php change this section because th
                         'persistent' => false,
                         'host' => 'localhost',
                         'username' => 'root',
-                        'password' => 'ubuntu',
+                        'password' => '',
                         'database' => 'bookmarkr',
                         'encoding' => 'utf8',
                         'timezone' => 'UTC',
@@ -96,7 +136,7 @@ now in the /var/www/html/bookmarkr/config/app.php change this section because th
                         'persistent' => false,
                         'host' => 'localhost',
                         'username' => 'root',
-                        'password' => 'ubuntu',
+                        'password' => '',
                         'database' => 'test_bookmarkr',
 
 App should run!
