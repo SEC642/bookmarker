@@ -85,32 +85,38 @@ CREATE TABLE bookmarks_tags (
 
 
 
-Here is my apache.conf file:
-
-Change the <directory> tags to look like this:
-<Directory />
-        Options FollowSymLinks
-        AllowOverride All
-        Require all granted
-</Directory>
-
-<Directory /usr/share>
-        AllowOverride None
-</Directory>
-
-<Directory /var/www/>
-        Options Indexes FollowSymLinks MultiViews
-        AllowOverride All
-        Require all granted
-</Directory>
-
-modify this file /etc/apache2/site-enabled/000-default.conf:
+Modify your apache default site file /etc/apache2/site-enabled/000-default.conf to match your install directory:
 
 	DocumentRoot /var/www/html/webroot
 
-I have my 'app' running in /var/www/html/
+Then add the following configs to that file right below the DocumentRoot line:
 
-now in the /var/www/html/config/app.php change this section because the password and username will not WORK.
+	<Directory />
+		Options FollowSymLinks
+		AllowOverride All
+		Require all granted
+	</Directory>
+	<Directory /usr/share>
+		AllowOverride None
+	</Directory>
+	<Directory /var/www/>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride All
+		Require all granted
+	</Directory>
+
+
+
+
+Then download the app and install it with:
+
+cd /var/www/html/
+sudo git https://github.com/meeas/dojo-bookmarker.git ./
+sudo chown -R www-data:www-data *
+
+
+
+And finally change the password in /var/www/html/config/app.php to match the username and password for your database.
 
    'Datasources' => [
                 'default' => [
