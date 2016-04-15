@@ -12,8 +12,9 @@ sudo a2enmod rewrite
 
 Database tables have to inserted correctly so do the following in Mysql:
 
-create database bookmarkr;
-use bookmarkr;
+
+create database bookmarker;
+use bookmarker;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
@@ -21,7 +22,6 @@ CREATE TABLE users (
     created DATETIME,
     modified DATETIME
 );
-
 CREATE TABLE bookmarks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
@@ -32,7 +32,6 @@ CREATE TABLE bookmarks (
     modified DATETIME,
     FOREIGN KEY user_key (user_id) REFERENCES users(id)
 );
-
 CREATE TABLE tags (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
@@ -40,7 +39,6 @@ CREATE TABLE tags (
     modified DATETIME,
     UNIQUE KEY (title)
 );
-
 CREATE TABLE bookmarks_tags (
     bookmark_id INT NOT NULL,
     tag_id INT NOT NULL,
@@ -48,9 +46,8 @@ CREATE TABLE bookmarks_tags (
     FOREIGN KEY tag_key(tag_id) REFERENCES tags(id),
     FOREIGN KEY bookmark_key(bookmark_id) REFERENCES bookmarks(id)
 );
-
-create database test_bookmarkr;
-use test_bookmarkr;
+create database test_bookmarker;
+use test_bookmarker;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
@@ -58,7 +55,6 @@ CREATE TABLE users (
     created DATETIME,
     modified DATETIME
 );
-
 CREATE TABLE bookmarks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
@@ -69,7 +65,6 @@ CREATE TABLE bookmarks (
     modified DATETIME,
     FOREIGN KEY user_key (user_id) REFERENCES users(id)
 );
-
 CREATE TABLE tags (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
@@ -77,7 +72,6 @@ CREATE TABLE tags (
     modified DATETIME,
     UNIQUE KEY (title)
 );
-
 CREATE TABLE bookmarks_tags (
     bookmark_id INT NOT NULL,
     tag_id INT NOT NULL,
@@ -110,11 +104,11 @@ Change the <directory> tags to look like this:
 
 modify this file /etc/apache2/site-enabled/000-default.conf:
 
-	DocumentRoot /var/www/html/bookmarkr/webroot
+	DocumentRoot /var/www/html/webroot
 
-I have my 'app' running in /var/www/html/bookmarkr
+I have my 'app' running in /var/www/html/
 
-now in the /var/www/html/bookmarkr/config/app.php change this section because the password and username will not WORK.
+now in the /var/www/html/config/app.php change this section because the password and username will not WORK.
 
    'Datasources' => [
                 'default' => [
@@ -124,7 +118,7 @@ now in the /var/www/html/bookmarkr/config/app.php change this section because th
                         'host' => 'localhost',
                         'username' => 'root',
                         'password' => '',
-                        'database' => 'bookmarkr',
+                        'database' => 'bookmarker',
                         'encoding' => 'utf8',
                         'timezone' => 'UTC',
                         'cacheMetadata' => true,
@@ -137,6 +131,6 @@ now in the /var/www/html/bookmarkr/config/app.php change this section because th
                         'host' => 'localhost',
                         'username' => 'root',
                         'password' => '',
-                        'database' => 'test_bookmarkr',
+                        'database' => 'test_bookmarker',
 
 App should run!
